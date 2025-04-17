@@ -122,3 +122,45 @@ dart pub global run dhttpd --path doc/api
 ## 4. Tutorial and Exercises
 
 You can find the full set of beginner-friendly Kaulin Dart exercises [here](examples/exercises.md).
+
+### Project Structure
+
+```text
+.
+├── CHANGELOG.md
+├── README.md
+├── analysis_options.yaml
+├── bin
+│   └── main.dart
+├── doc
+├── examples
+│   ├── exercises.md
+│   ├── fizzbuzz.dka
+│   ├── hello_world.dka
+│   └── laske_10_miljoonaan.dka
+├── lib
+│   ├── ast
+│   │   └── ast_nodes.dart
+│   ├── core
+│   │   └── builtins.dart
+│   ├── interpreter
+│   │   ├── environment.dart
+│   │   └── eval.dart
+│   └── parser
+│       ├── lexer.dart
+│       ├── parser.dart
+│       └── token.dart
+├── pubspec.lock
+├── pubspec.yaml
+└── test
+    ├── eval_test.dart
+    ├── parser_test.dart
+    └── typing_test.dart
+```
+
+---
+
+### Original Kaulin Language
+
+The original Kaulin language implemented in Rust can be found here:  
+[https://github.com/ViljamiRii/Kaulin](https://github.com/ViljamiRii/Kaulin)
