@@ -109,6 +109,16 @@ The following defines the grammar of Kaulin Dart in BNF.
 
 ```
 
+Documentation can be easily created using:
+
+```
+dart doc
+dart pub global activate dhttpd
+dart pub global run dhttpd --path doc/api
+```
+
+
+
 ## 4. Tutorial and Exercises
 
 You can find the full set of beginner-friendly Kaulin Dart exercises [here](examples/exercises.md).
