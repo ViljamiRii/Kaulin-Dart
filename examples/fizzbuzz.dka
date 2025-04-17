@@ -1,0 +1,15 @@
+funktio fizzBuzz(n) {
+  toista (muuttuja i = 1; i <= n; i = i + 1) {
+    jos (i % 15 == 0) {
+      tulosta("FizzBuzz");
+    } toisin jos (i % 3 == 0) {
+      tulosta("Fizz");
+    } toisin jos (i % 5 == 0) {
+      tulosta("Buzz");
+    } toisin {
+      tulosta(i);
+    }
+  }
+}
+
+fizzBuzz(100);

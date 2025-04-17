@@ -1,0 +1,10 @@
+funktio laske_10_miljoonaan() {
+    muuttuja aloitus_aika = aika();
+    toista ( muuttuja i = 0; i < 10000000; i = i + 1) {
+    }
+    muuttuja lopetus_aika = aika();
+    muuttuja koko_kesto = lopetus_aika - aloitus_aika;
+    tulosta("Kesto: " + koko_kesto + "ms");
+}
+
+laske_10_miljoonaan();

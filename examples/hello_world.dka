@@ -1,0 +1,5 @@
+funktio pää() {
+    tulosta(1 == 2);
+}
+
+pää();
