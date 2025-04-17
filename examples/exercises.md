@@ -100,3 +100,12 @@ laske(5)
 4
 5
 ```
+
+#### Solution
+```kaulin
+funktio laske(n) {
+  toista (muuttuja i = 1; i <= n; i = i + 1) {
+    tulosta(i);
+  }
+}
+```
